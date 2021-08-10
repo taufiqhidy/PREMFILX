@@ -40,7 +40,7 @@ br.addheaders = [('user-agent','Dalvik/1.6.0 (Linux; U; Android 4.4.2; NX55 Buil
 
 def keluar():
         print("Terima kasih telah menggunakan tool ini")
-	os.system('xdg-open https://youtu.be/QF0jMxC6CkE')
+	os.system('xdg-open https://youtube.com/channel/UCqHIxnz-uxVzLXARplFzzqQ')
         exit()
 
 def acak(b):
