@@ -30,7 +30,6 @@ import os,sys,time,datetime,random,hashlib,re,threading,json,urllib
 from multiprocessing.pool import ThreadPool
 
 
-reload(sys)
 sys.setdefaultencoding('utf8')
 br = mechanize.Browser()
 br.set_handle_robots(False)
