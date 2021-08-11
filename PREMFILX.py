@@ -102,6 +102,7 @@ print(""")
 
 ####Logo#####
 
+"""
 def logo1():
 print(""")
 
