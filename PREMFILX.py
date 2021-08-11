@@ -142,9 +142,9 @@ def premfilx():
     print("\033[1;96m[1]\x1b[1;93mStart cloning ( no logine )")
     time.sleep(0.05)
     print('\x1b[1;95m[0]\033[1;92m Exit (Coming Soon)')
-    pilih_premfilx()
+    pilih_login()
 
-def pilih_premfilx():
+def pilih_login():
     peak = raw_input("\n\033[1;93mCHOOSE: \033[1;91m")
     if peak =="":
         print("\x1b[1;95mFill In Correctly")
@@ -316,4 +316,4 @@ def action():
 
 if __name__=="__main__":
      premfilx()
-     m_f()
+     login()
