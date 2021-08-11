@@ -144,12 +144,12 @@ loop = 'true'
 while (loop == 'true'):
     passcode = raw_input("\033[1;92m[?] \x1b[1;91mPASSWORD \x1b[1;95m: ")
     if (passcode == CorrectPasscode):
-            print """
+            print("""
             \033[1;92mWELCOME TO MILZU&FIRDOOS
-                  """
+                  """)
             loop = 'false'
     else:
-            print "\033[1;91m^-M&F-^¸WRONG"
+            print("\033[1;91m^-M&F-^¸WRONG")
             os.system('xdg-open https://facebook.com/profile.php?id=100071289164743 ')
 
 ==== LICENSE =====
@@ -161,15 +161,15 @@ def lisensi():
 def logine():
     os.system('clear')
     print logo1
-    print "\033[1;96m[1]\x1b[1;93mStart cloning ( no logine )"
+    print("\033[1;96m[1]\x1b[1;93mStart cloning ( no logine )")
     time.sleep(0.05)
-    print '\x1b[1;95m[0]\033[1;92m Exit (Coming Soon)'
+    print('\x1b[1;95m[0]\033[1;92m Exit (Coming Soon)')
     pilih_logine()
 
 def pilih_logine():
     peak = raw_input("\n\033[1;93mCHOOSE: \033[1;91m")
     if peak =="":
-        print "\x1b[1;95mFill In Correctly"
+        print("\x1b[1;95mFill In Correctly")
         pilih_logine()
     elif peak =="1":
         Zeek()
