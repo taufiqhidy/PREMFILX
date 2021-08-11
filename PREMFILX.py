@@ -115,6 +115,10 @@ print(""")
 "\033[1;97m      PREMIRE                  PREMIRE                  PREMIRE"
 
 """
+
+####Logo#####
+
+"""
 def logo2():
 print(""")
 
