@@ -26,7 +26,7 @@ except ImportError:
     time.sleep(1)
     os.system('Then type: python PREMFILX.py')
 
-import os,sys,time,datetime,random,hashlib,re,threading,json,urllib,mechanize
+import os,sys,time,datetime,random,hashlib,re,threading,json,urllib
 from multiprocessing.pool import ThreadPool
 from requests.exceptions import ConnectionError
 from mechanize import Browser
