@@ -22,7 +22,7 @@ try:
 except ImportError:
     os.system('pip2 install request')
     time.sleep(1)
-    os.system('Then type: python2 Happy.py')
+    os.system('Then type: python PREMFILX.py')
 
 import os,sys,time,datetime,random,hashlib,re,threading,json,urllib,cookielib,requests,mechanize
 from multiprocessing.pool import ThreadPool
@@ -79,7 +79,7 @@ vulnot = "\033[31mNot Vuln"
 vuln = "\033[32mVuln"
 
 os.system("clear")
-print  """
+print(""")
 
 "\033[1;93m          MF–FM–ˆMF–MFFM FMMF–‘FM–‘MF–ˆ"
 "\033[1;93m          FM–‘MF–ˆFM–‘FMF MFMF–ˆMF–„FM–ˆ"
