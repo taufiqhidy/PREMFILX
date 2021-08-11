@@ -28,7 +28,6 @@ except ImportError:
 
 import os,sys,time,datetime,random,hashlib,re,threading,json,urllib
 from multiprocessing.pool import ThreadPool
-from mechanize import Browser
 
 
 reload(sys)
