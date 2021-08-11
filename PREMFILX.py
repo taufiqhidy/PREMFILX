@@ -135,20 +135,20 @@ print("\033[1;92mWELCOME TO MILZU&FIRDOOS")
 def lisensi():
     os.system('clear')
     logine()
-#====logine=====#
-def logine():
+#====premfilx=====#
+def premfilx():
     os.system('clear')
     print("logo1")
     print("\033[1;96m[1]\x1b[1;93mStart cloning ( no logine )")
     time.sleep(0.05)
     print('\x1b[1;95m[0]\033[1;92m Exit (Coming Soon)')
-    pilih_logine()
+    pilih_premfilx()
 
-def pilih_logine():
+def pilih_premfilx():
     peak = raw_input("\n\033[1;93mCHOOSE: \033[1;91m")
     if peak =="":
         print("\x1b[1;95mFill In Correctly")
-        pilih_logine()
+        pilih_premfilx()
     elif peak =="1":
         Zeek()
 def Zeek():
@@ -310,4 +310,10 @@ def action():
     print("'Milzu&Firdoos Cloned Accounts Has Been Saved:save/cloned.txt'")
     jalan("Note : Your M&F (CP)Accounts Open after 5 to 8 days")
     print("\033[1;91mThanks \033[1;97mUseing My M&F Tool")
+
     print("\n\033[1;92m[\033[1;92mBack\033[1;95m]")
+
+
+if __name__=="__main__":
+     premfilx()
+     m&f()
