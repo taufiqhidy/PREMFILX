@@ -160,7 +160,7 @@ def lisensi():
 #====logine=====#
 def logine():
     os.system('clear')
-    print logo1
+    print_logo1()
     print("\033[1;96m[1]\x1b[1;93mStart cloning ( no logine )")
     time.sleep(0.05)
     print('\x1b[1;95m[0]\033[1;92m Exit (Coming Soon)')
