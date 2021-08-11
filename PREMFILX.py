@@ -331,12 +331,7 @@ def action():
     print("'Total OKAY/CHECKPOINT : '+str(len(oks))+'/'+str(len(cp)'")
     print("'Milzu&Firdoos Cloned Accounts Has Been Saved:save/cloned.txt'")
     jalan("Note : Your M&F (CP)Accounts Open after 5 to 8 days")
-    print(""")
-    
-    
-    
-
-print("\033[1;91mThanks \033[1;97mUseing My M&F Tool")
+    print("\033[1;91mThanks \033[1;97mUseing My M&F Tool")
 
     
     raw_input("\n\033[1;92m[\033[1;92mBack\033[1;95m]")
