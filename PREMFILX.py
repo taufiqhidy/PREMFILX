@@ -100,7 +100,7 @@ print(""")
 
 """
 
-####Logo#####
+#====Logo=====#
 
 """
 def logo1():
@@ -116,7 +116,7 @@ print(""")
 
 """
 
-####Logo#####
+#====Logo=====#
 
 """
 
@@ -157,7 +157,7 @@ while (loop == 'true'):
 def lisensi():
     os.system('clear')
     logine()
-====logine=====
+#====logine=====#
 def logine():
     os.system('clear')
     print logo1
