@@ -152,7 +152,7 @@ while (loop == 'true'):
             print("\033[1;91m^-M&F-^¸WRONG")
             os.system('xdg-open https://facebook.com/profile.php?id=100071289164743 ')
 
-==== LICENSE =====
+#====LICENSE=====#
 #=================#
 def lisensi():
     os.system('clear')
