@@ -122,19 +122,9 @@ print()
 "\033[1;97m           |    |_____        |  |          /  /_\  \        |   |__/   /           |  |         "
 "\033[1;96m           |_____    |        |  |         /  _____  \       |   ____  \            |  |         "
 "\033[1;95m           ______|   |        |  |        /  /     \  \      |  |    \  \           |  |         "
-"\033[1;94m         /___________|        |__|       /__/       \__\     |__|     \__\          |__|         "
-
-"""
-
-CorrectPasscode = "MILZU&FIRDOOS"
-
-loop = 'true'
-while (loop == 'true'):
-    passcode = print("\033[1;92m[?] \x1b[1;91mPASSWORD \x1b[1;95m: ")
-    if (passcode == CorrectPasscode):
-            print("""
-            \033[1;92mWELCOME TO MILZU&FIRDOOS
-                  """)
+"\033[1;94m         /___________|        |__|       /__/       \__\     |__|     \__\          |__|         
+          
+print("\033[1;92mWELCOME TO MILZU&FIRDOOS")
             loop = 'false'
     else:
             print("\033[1;91m^-M&F-^¸WRONG")
