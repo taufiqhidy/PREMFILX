@@ -316,4 +316,4 @@ def action():
 
 if __name__=="__main__":
      premfilx()
-     m&f()
+     m_f()
