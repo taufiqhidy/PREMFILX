@@ -328,7 +328,7 @@ def action():
     p.map(main, id)
     print("50* '\033[1;91m-'")
     print('Milzu&Firdoos Process Has Been Completed^M&F-^M&F-^M&F-^M&F-M&F-M&F...100%')
-    print('Total OKAY/CHECKPOINT : '+str(len(oks))+'/'+str(len(cp)')
+    print("'Total OKAY/CHECKPOINT : '+str(len(oks))+'/'+str(len(cp)'")
     print("'Milzu&Firdoos Cloned Accounts Has Been Saved':('save/cloned.txt')")
     jalan("Note : Your M&F (CP)Accounts Open after 5 to 8 days")
     print()
