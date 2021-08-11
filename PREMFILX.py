@@ -316,4 +316,3 @@ def action():
     logine() 
           
 if __name__ == '__main__':
-    logine()
