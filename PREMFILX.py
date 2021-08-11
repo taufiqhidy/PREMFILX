@@ -333,12 +333,13 @@ def action():
     jalan("Note : Your M&F (CP)Accounts Open after 5 to 8 days")
     print(""")
     print(""")
-    
+"""
     
     
     
 
 \033[1;91mThanks \033[1;97mUseing My M&F Tool
+
 """
 
     
